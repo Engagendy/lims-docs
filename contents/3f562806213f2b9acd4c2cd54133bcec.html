@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CompanyEmployee</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>CompanyEmployee</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>ILO LIMS</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='df7e500e02fa60d5af1fa965115166da.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>LIMS UML</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7ebd50bc7926ee0c4e801e9c37c1bb8c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>LIMS DB</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='3f562806213f2b9acd4c2cd54133bcec.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CompanyEmployee</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="5f033d16a8c63f47db347f31c4e1ec8f.html">CompanyEmployeeID</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f2333cdc264db48737a3e4bfc1c8c10b.html">CompanyID</a></td>
+            <td>BIGINT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='ad491865ab8880ea1112dc58315dffdb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Company</a> ::
+              
+              <a href='3dcdce69e0277a41e0202514691fef78.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>CompanyID</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="fe24580ff636e3faeb138b13ea19808f.html">EmployeeID</a></td>
+            <td>BIGINT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='3973612c569e68b31ad17641450cda41.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Employee</a> ::
+              
+              <a href='64473ae3e1ac0839cac834456453652b.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>EmployeeID</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="8430180ed2ae77f5492258f7fb25744e.html">PermitStart</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f1c499a06f7fc55271044120627a84a0.html">PermitExpiry</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="53cd246f335f66b297415657e3bed0a9.html">PermitNumber</a></td>
+            <td>BIGINT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="268467cfe3ac20b66cc3a866b85a14d6.html">CreatedAt</a></td>
+            <td>DATETIME</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="56e3025ca448019930047694946f6dc7.html">CreatedBy</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='69b56e10c3a478137b5864e330db0609.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a> ::
+              
+              <a href='cb65e22ff11e9c15a2cd3e0d0411bf2b.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>UserID</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="a3855f5e684f0c1bdbdcc14484396c2b.html">UpdatedAt</a></td>
+            <td>DATETIME</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="e65ec05be1203b14b056ce0dfbbfae2e.html">UpdatedBy</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='69b56e10c3a478137b5864e330db0609.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a> ::
+              
+              <a href='cb65e22ff11e9c15a2cd3e0d0411bf2b.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>UserID</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="93d8f6f146fd11161c8938fcb19118d5.html">DeletedAt</a></td>
+            <td>DATETIME</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f6707a1f1120e4a7c76ad4b2cfce48cf.html">DeletedBy</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='ad491865ab8880ea1112dc58315dffdb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Company</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='7b1cca58ee3a59ef3b1137ba8dc363bc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Company—CompanyEmployee)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='69b56e10c3a478137b5864e330db0609.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='7772bb51fd7411a087e5073e0ca86618.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—CompanyEmployee)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='69b56e10c3a478137b5864e330db0609.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='ebd8bf1e02a51fd69dda2a7d7e5a22cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—CompanyEmployee)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='3973612c569e68b31ad17641450cda41.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Employee</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='2ef706f77f9b63f80b40bb884eeb1b1b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Employee—CompanyEmployee)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='fdb56a8d55120dd9955f116c72825b9c.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Task</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='7efd5374b93cc738e067ee249c07b778.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Has Inspection Type (CompanyEmployee—Task)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='33e631f29232e797527c55617650e225.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>QuestionCategory</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='ea34b47c97c3d6968691d504db0a9e58.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Contains (CompanyEmployee—QuestionCategory)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>CompanyEmployee</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='7b1cca58ee3a59ef3b1137ba8dc363bc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Company—CompanyEmployee)</a></li>
+        
+        <li><a href='7772bb51fd7411a087e5073e0ca86618.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—CompanyEmployee)</a></li>
+        
+        <li><a href='ebd8bf1e02a51fd69dda2a7d7e5a22cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—CompanyEmployee)</a></li>
+        
+        <li><a href='2ef706f77f9b63f80b40bb884eeb1b1b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Employee—CompanyEmployee)</a></li>
+        
+        <li><a href='7efd5374b93cc738e067ee249c07b778.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Has Inspection Type (CompanyEmployee—Task)</a></li>
+        
+        <li><a href='ea34b47c97c3d6968691d504db0a9e58.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Contains (CompanyEmployee—QuestionCategory)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='7efd5374b93cc738e067ee249c07b778.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Has Inspection Type (CompanyEmployee—Task)</a></li>
+        
+        <li><a href='ea34b47c97c3d6968691d504db0a9e58.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Contains (CompanyEmployee—QuestionCategory)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>
