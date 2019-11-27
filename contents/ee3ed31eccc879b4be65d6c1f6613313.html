@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ILO LIMS</title>
+    <title>TaskReportID</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,14 +18,14 @@
 
       <!-- Name Title -->
 
-      <h1>ILO LIMS</h1>
+      <h1>TaskReportID</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-Project"></span>
-          Project
+          <span class="node-icon staruml-icon icon-ERDColumn"></span>
+          ERDColumn
         </span>
         
       </section>
@@ -38,6 +38,18 @@
         
           
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>ILO LIMS</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='df7e500e02fa60d5af1fa965115166da.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>LIMS UML</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='7ebd50bc7926ee0c4e801e9c37c1bb8c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>LIMS DB</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='60cb5a86627f86ef1a49f37498a84b9e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TaskReportDetails</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='ee3ed31eccc879b4be65d6c1f6613313.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>TaskReportID</a></span>
         
       </section>
 
@@ -52,7 +64,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>This document is to describe LIMS.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -206,7 +218,7 @@
     
     <tr>
         <td>name</td>
-        <td>ILO LIMS</td>
+        <td>TaskReportID</td>
     </tr>
     
     
@@ -220,8 +232,8 @@
     
     
     <tr>
-        <td>author</td>
-        <td>Ahmed EL-Gendy</td>
+        <td>type</td>
+        <td>BIGINT</td>
     </tr>
     
     
@@ -229,8 +241,8 @@
     
     
     <tr>
-        <td>company</td>
-        <td></td>
+        <td>length</td>
+        <td><span class='label label-info'>0</span></td>
     </tr>
     
     
@@ -238,8 +250,8 @@
     
     
     <tr>
-        <td>copyright</td>
-        <td>2019</td>
+        <td>primaryKey</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -247,8 +259,35 @@
     
     
     <tr>
-        <td>version</td>
-        <td>1</td>
+        <td>foreignKey</td>
+        <td><span class='label label-info'>true</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>referenceTo</td>
+        <td><a href='c910be1b288e8f1f1f9c75735be09766.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>TaskReportID</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>nullable</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>unique</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -275,23 +314,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></li>
-        
-        <li><a href='df7e500e02fa60d5af1fa965115166da.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>LIMS UML</a></li>
-        
-        <li><a href='903b500dd1524bd21bdaa938b19a1add.html'><span class='node-icon staruml-icon icon-UMLModel'></span>LIMS PD</a></li>
-        
-        <li><a href='514cfc4388870472c3ab702ae6238ccf.html'><span class='node-icon staruml-icon icon-UMLModel'></span>UseCase Digram</a></li>
-        
-        <li><a href='2a82821a110ba4a9765fcd059e3f4a52.html'><span class='node-icon staruml-icon icon-DFDDataFlowModel'></span>DataFlowDiagrams</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>

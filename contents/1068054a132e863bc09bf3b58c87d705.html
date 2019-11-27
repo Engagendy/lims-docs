@@ -241,34 +241,6 @@
           </tr>
           
           <tr>
-            <td><a href="b69c5b1028fe03fe9691c8c883f62df7.html">AnswerText</a></td>
-            <td>NVARCHAR</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="9db6c0a4ec541c5b26289037515fd0e9.html">AnswerID</a></td>
-            <td>INTEGER</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>true</span></td>
-            <td>
-              
-                <a href='569606076d973e3e480f580cec6eccda.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Answer</a> ::
-              
-              <a href='d87b83f79e2a7e68e75eb25d4d63b9d2.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>AnswerID</a>
-            </td>
-            <td><span class='label label-info'>true</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
             <td><a href="d7f87b7f2bc9ea334d9016aa4236d463.html">CreatedAt</a></td>
             <td>DATETIME</td>
             <td><span class='label label-info'>false</span></td>
@@ -404,6 +376,14 @@
           
           
           <tr>
+            <td><a href='60cb5a86627f86ef1a49f37498a84b9e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TaskReportDetails</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='89e070ba50d1f1de0a6e0507f8494053.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TaskReport—TaskReportDetails)</a></td>
+          </tr>
+          
+          
+          <tr>
             <td><a href='fd94e702373ddb29a68cff0260bfd02c.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>EcnomicActivity</a></td>
             <td>1</td>
             <td></td>
@@ -490,6 +470,8 @@
         
         <li><a href='f805f5c5ab0aefc1370c22d58b091a28.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Task—TaskReport)</a></li>
         
+        <li><a href='89e070ba50d1f1de0a6e0507f8494053.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TaskReport—TaskReportDetails)</a></li>
+        
         <li><a href='3226cd2ee6486b31832def785625d3e6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(EcnomicActivity—TaskReport)</a></li>
         
         <li><a href='299e73516e53c699cd22d5354a60af0f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CompanyEcnomicActivity—TaskReport)</a></li>
@@ -503,6 +485,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='89e070ba50d1f1de0a6e0507f8494053.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TaskReport—TaskReportDetails)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

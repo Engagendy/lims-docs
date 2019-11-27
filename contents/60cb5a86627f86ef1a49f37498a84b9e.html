@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ViolationFix</title>
+    <title>TaskReportDetails</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>ViolationFix</h1>
+      <h1>TaskReportDetails</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +46,7 @@
           <span class="label label-info"><a href='7ebd50bc7926ee0c4e801e9c37c1bb8c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>LIMS DB</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='a9c315ad0f3ab791e96fe88996aed2bf.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>ViolationFix</a></span>
+          <span class="label label-info"><a href='60cb5a86627f86ef1a49f37498a84b9e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TaskReportDetails</a></span>
         
       </section>
 
@@ -198,8 +198,8 @@
           </tr>
           
           <tr>
-            <td><a href="b884d7629c64f8e0e3368d0ea0e0b940.html">ViolationFixID</a></td>
-            <td>INT</td>
+            <td><a href="ef42d3e50f703567d954df5ca7a73b41.html">TaskReportDetailID</a></td>
+            <td>BIGINT</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
             <td>
@@ -211,30 +211,45 @@
           </tr>
           
           <tr>
-            <td><a href="c0fd2f8a50f97642aa831459ebba5a75.html">ViolationFixText</a></td>
-            <td>VARCHAR</td>
+            <td><a href="ee3ed31eccc879b4be65d6c1f6613313.html">TaskReportID</a></td>
+            <td>BIGINT</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
             <td>
               
-              <span class='label label-info'>null</span>
+                <a href='1068054a132e863bc09bf3b58c87d705.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TaskReport</a> ::
+              
+              <a href='c910be1b288e8f1f1f9c75735be09766.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>TaskReportID</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
           <tr>
-            <td><a href="a3d3b28bd2d87452866a00c098b1ebb5.html">ViolationID</a></td>
+            <td><a href="e19cc67200c6511b230c86653359fee2.html">AnswerID</a></td>
             <td>INT</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>true</span></td>
             <td>
               
-                <a href='bfcbd4636c82a17cd0ddcca468b424fc.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Violation</a> ::
+                <a href='569606076d973e3e480f580cec6eccda.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Answer</a> ::
               
-              <a href='5d3e4caeff9e567629f5e7c6606bb01a.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>ViolationID</a>
+              <a href='d87b83f79e2a7e68e75eb25d4d63b9d2.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>AnswerID</a>
             </td>
+            <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6c30aa53a40b06b59024d23f96d3d03a.html">AnswerText</a></td>
+            <td>NVARCHAR</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
@@ -258,18 +273,18 @@
           
           
           <tr>
-            <td><a href='bfcbd4636c82a17cd0ddcca468b424fc.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Violation</a></td>
-            <td>0..*</td>
+            <td><a href='569606076d973e3e480f580cec6eccda.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Answer</a></td>
+            <td>1</td>
             <td></td>
-            <td><a href='8fa706a11b1ea4851cef968bb1b33ffc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(ViolationFix—Violation)</a></td>
+            <td><a href='81038ced10936ead339f94b36aa15ae2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Answer—TaskReportDetails)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='bfcbd4636c82a17cd0ddcca468b424fc.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Violation</a></td>
+            <td><a href='1068054a132e863bc09bf3b58c87d705.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TaskReport</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='60dbcba5897c3115ced9e4f6fb6d1ec7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Violation—ViolationFix)</a></td>
+            <td><a href='89e070ba50d1f1de0a6e0507f8494053.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TaskReport—TaskReportDetails)</a></td>
           </tr>
           
         </table>                
@@ -303,7 +318,7 @@
     
     <tr>
         <td>name</td>
-        <td>ViolationFix</td>
+        <td>TaskReportDetails</td>
     </tr>
     
     
@@ -336,9 +351,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8fa706a11b1ea4851cef968bb1b33ffc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(ViolationFix—Violation)</a></li>
+        <li><a href='81038ced10936ead339f94b36aa15ae2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Answer—TaskReportDetails)</a></li>
         
-        <li><a href='60dbcba5897c3115ced9e4f6fb6d1ec7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Violation—ViolationFix)</a></li>
+        <li><a href='89e070ba50d1f1de0a6e0507f8494053.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TaskReport—TaskReportDetails)</a></li>
         
     </ul>
 </section>
@@ -349,15 +364,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='8fa706a11b1ea4851cef968bb1b33ffc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(ViolationFix—Violation)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>
